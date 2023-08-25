@@ -247,8 +247,8 @@ class Book {
     readBtn.onclick = toggleRead
     removeBtn.onclick = removeBook
   
-    title.textContent = `"${book.title}"`
-    author.textContent = book.author
+    title.textContent = `Title: "${book.title}"`
+    author.textContent = `Author: ${book.author}`
     pages.textContent = `${book.pages} pages`
     removeBtn.textContent = 'Remove'
   
