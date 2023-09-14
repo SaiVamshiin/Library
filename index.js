@@ -13,8 +13,7 @@ class Book {
     }
   }
   
-  // Local Storage
-  
+  // Local Storage 
   const saveLocal = () => {
     localStorage.setItem('library', JSON.stringify(library.books))
   }
